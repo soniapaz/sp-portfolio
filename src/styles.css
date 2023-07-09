@@ -7,7 +7,79 @@
   --color-border: #e0e8d9;
   --color-primary: #9ea76a;
   --color-secondary: #f77f87;
+  --color-secondary-light: #fda0a5;
+  --color-secondary-superlight: #ffe8e9;
   --color-tertiary: #607b40;
+}
+
+@media (max-width: 768px) {
+  header,
+  main,
+  footer {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  header,
+  main,
+  footer {
+    width: 90% !important;
+  }
+
+  .hero h1 {
+    font-size: 3.1em !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .hero p {
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+  }
+
+  .page__button {
+    font-size: 0.9rem !important;
+    background-color: var(--color-secondary-light) !important;
+  }
+}
+
+@media (max-width: 400px) {
+  header .nav-link {
+    padding: 0.7rem !important;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem !important;
+  }
+
+  .hero p {
+    padding-bottom: 2.1rem !important;
+  }
+}
+
+@media (max-width: 350px) {
+  header,
+  main,
+  footer {
+    width: 95% !important;
+  }
+
+  header .nav-link {
+    padding: 0.57rem !important;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem !important;
+  }
+
+  .hero p {
+    font-size: 1.16rem !important;
+  }
+
+  .page__button {
+    font-size: 0.87rem !important;
+    padding: 0.7rem 0.8rem !important;
+  }
 }
 
 header,
@@ -21,6 +93,7 @@ footer {
 
 header .active {
   background-color: var(--color-tertiary) !important;
+  opacity: 0.8;
 }
 
 header img {
@@ -35,7 +108,7 @@ header .nav-item {
 header .nav-item::after {
   content: "";
   height: 5px;
-  background-color: var(--color-border);
+  background-color: var(--color-secondary-superlight);
   position: absolute;
   left: 1.25rem;
   right: 1.25rem;
@@ -72,7 +145,7 @@ a {
 }
 
 .hero h1 {
-  font-size: 3.1rem;
+  font-size: 3.5rem;
   opacity: 0.9;
 }
 
@@ -82,7 +155,6 @@ a {
   opacity: 0.8;
 }
 
-/*Copied*/
 .hero__link {
   display: inline-block;
   position: relative;
