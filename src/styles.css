@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Sofia+Sans+Semi+Condensed:wght@500&display=swap");
+
+:root {
+  --color-text: #404040;
+  --title-font: "Sofia Sans Semi Condensed", sans-serif;
+  --text-font: "Figtree", sans-serif;
+  --color-border: #e0e8d9;
+  --color-primary: #9ea76a;
+  --color-secondary: #f77f87;
+  --color-tertiary: #607b40;
+}
+
+header,
+main,
+footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+header .active {
+  background-color: var(--color-tertiary) !important;
+}
+
+header img {
+  border-radius: 50%;
+  background-color: #f5e0e1;
+}
+
+header .nav-item {
+  position: relative;
+}
+
+header .nav-item::after {
+  content: "";
+  height: 5px;
+  background-color: var(--color-border);
+  position: absolute;
+  left: 1.25rem;
+  right: 1.25rem;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+header .nav-item:hover::after {
+  transform: scaleX(1);
+}
+
+header .nav-link {
+  color: var(--color-text);
+}
+
+header .nav-link:hover {
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: var(--text-font);
+}
+
+h2,
+p,
+a {
+  font-family: var(--text-font);
+}
+
+.hero {
+  min-height: 500px;
+  padding: 3rem 0 4rem;
+}
+
+.hero h1 {
+  font-size: 3.1rem;
+  opacity: 0.9;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+/*Copied*/
+.hero__link {
+  display: inline-block;
+  position: relative;
+  color: var(--color-text) !important;
+  text-decoration: none;
+}
+
+.hero__link::after,
+.hero__link::before {
+  content: "";
+  display: block;
+  height: 0.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.hero__link::before {
+  background-color: var(--color-border);
+}
+
+.hero__link::after {
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.hero__link:hover::after {
+  transform: scaleX(1);
+}
+
+.page__button {
+  color: white;
+  background-color: var(--color-secondary);
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  border: 1px solid transparent !important;
+  text-decoration: none;
+  font-weight: 500;
+  justify-content: center;
+}
+
+footer a:first-of-type:hover {
+  text-decoration: underline !important;
+}
+
+footer i {
+  font-size: 1.1rem;
+}
+
+footer i:hover {
+  color: var(--color-text) !important;
+}
