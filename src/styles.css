@@ -10,16 +10,47 @@
   --color-secondary-light: #fda0a5;
   --color-secondary-superlight: #ffe8e9;
   --color-tertiary: #607b40;
+  --color-quaternary: #f8bd75f3;
 }
 
-@media (max-width: 768px) {
+/*Laptop L*/
+@media (max-width: 2000px) {
+  header,
+  main,
+  footer {
+    width: 85% !important;
+  }
+}
+
+/*Laptop*/
+@media (max-width: 1400px) {
   header,
   main,
   footer {
     width: 90% !important;
   }
+
+  /*.project__section span {
+    font-size: 0.7rem !important;
+  }*/
+
+  .project__button {
+    font-size: 0.8rem !important;
+  }
 }
 
+/*Tablet*/
+@media (max-width: 768px) {
+  .project__section p {
+    padding-bottom: 2.2rem !important;
+  }
+
+  .project__button {
+    margin-bottom: 5rem;
+  }
+}
+
+/*Mobile L*/
 @media (max-width: 576px) {
   header,
   main,
@@ -28,7 +59,7 @@
   }
 
   .hero h1 {
-    font-size: 3.1em !important;
+    font-size: 3.1rem !important;
     padding-bottom: 1rem !important;
   }
 
@@ -43,6 +74,7 @@
   }
 }
 
+/*Mobile M*/
 @media (max-width: 400px) {
   header .nav-link {
     padding: 0.7rem !important;
@@ -55,8 +87,13 @@
   .hero p {
     padding-bottom: 2.1rem !important;
   }
+
+  .project__section span {
+    font-size: 0.6rem !important;
+  }
 }
 
+/*Mobile S*/
 @media (max-width: 350px) {
   header,
   main,
@@ -98,7 +135,7 @@ header .active {
 
 header img {
   border-radius: 50%;
-  background-color: #f5e0e1;
+  background-color: #f5e0e1; /*or #f5e0e1; | #ffefde;*/
 }
 
 header .nav-item {
@@ -129,18 +166,17 @@ header .nav-link:hover {
   color: var(--color-text);
 }
 
-h1 {
-  font-family: var(--text-font);
-}
-
+h1,
 h2,
+h5,
 p,
-a {
+a,
+span {
   font-family: var(--text-font);
 }
 
 .hero {
-  min-height: 500px;
+  min-height: 400px;
   padding: 3rem 0 4rem;
 }
 
@@ -198,6 +234,49 @@ a {
   text-decoration: none;
   font-weight: 500;
   justify-content: center;
+}
+
+.project__section {
+  min-height: 650px;
+  padding: 0 0 4rem;
+}
+
+.project__section h1 {
+  font-size: 1.9rem;
+  opacity: 0.9;
+}
+
+.project__section h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project__section span {
+  font-size: 0.7rem;
+  background-color: var(--color-tertiary);
+  opacity: 0.5;
+  padding: 0.3em 1em;
+  border-radius: 3px;
+  color: white;
+}
+
+.project__section span > i {
+  margin-right: 0.3em;
+}
+
+.project__button {
+  color: white;
+  background-color: var(--color-secondary-light);
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.375rem;
+  border: 1px solid transparent !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.project__section .card-body > div:last-of-type {
+  column-gap: 2rem;
 }
 
 footer a:first-of-type:hover {
