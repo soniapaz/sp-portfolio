@@ -103,10 +103,6 @@
   .project__section span {
     font-size: 0.6rem !important;
   }
-
-  .project__button__section {
-    justify-content: space-evenly !important;
-  }
 }
 
 /*Mobile S*/
