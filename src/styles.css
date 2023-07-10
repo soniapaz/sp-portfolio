@@ -30,10 +30,6 @@
     width: 90% !important;
   }
 
-  /*.project__section span {
-    font-size: 0.7rem !important;
-  }*/
-
   .project__button {
     font-size: 0.8rem !important;
   }
@@ -41,12 +37,13 @@
 
 /*Tablet*/
 @media (max-width: 768px) {
-  .project__section p {
-    padding-bottom: 2.2rem !important;
+  .project__section .second__col,
+  .project__section .third__col {
+    margin-top: 5.5rem;
   }
 
-  .project__button {
-    margin-bottom: 5rem;
+  .project__section p {
+    padding-bottom: 2.2rem !important;
   }
 }
 
