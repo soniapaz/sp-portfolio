@@ -72,7 +72,7 @@
 
   .hero {
     padding-top: 0.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-bottom: 5.5rem !important;
   }
 
   .hero h1 {
@@ -82,10 +82,11 @@
   .hero p {
     font-size: 1.2rem !important;
     font-weight: 400 !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .page__button {
-    padding: 0.5rem 0.8rem !important;
+    padding: 0.4rem 0.7rem !important;
     background-color: var(--color-secondary-light) !important;
   }
 
@@ -103,7 +104,7 @@
 
   .hero {
     padding-top: 0.5rem !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 5rem !important;
   }
 
   .hero h1 {
@@ -111,7 +112,7 @@
   }
 
   .hero p {
-    padding-bottom: 1.6rem !important;
+    padding-bottom: 1.2rem !important;
   }
 }
 
@@ -137,7 +138,6 @@
 
   .page__button {
     font-size: 0.87rem !important;
-    padding: 0.5rem 0.7rem !important;
   }
 
   .project__section span {
@@ -212,7 +212,7 @@ span {
 }
 
 .hero p {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 300;
   opacity: 0.8;
 }
