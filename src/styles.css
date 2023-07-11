@@ -42,6 +42,16 @@
 
 /*Tablet*/
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 2.3rem !important;
+    padding-bottom: 5.5rem !important;
+  }
+
+  .page__button {
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.9rem !important;
+  }
+
   .project__section .second__col,
   .project__section .third__col {
     margin-top: 5.5rem;
@@ -62,12 +72,11 @@
 
   .hero {
     padding-top: 0.5rem !important;
-    padding-bottom: 5.5rem !important;
+    padding-bottom: 4.5rem !important;
   }
 
   .hero h1 {
-    font-size: 3.1rem !important;
-    padding-bottom: 1rem !important;
+    font-size: 2.9rem !important;
   }
 
   .hero p {
@@ -76,7 +85,7 @@
   }
 
   .page__button {
-    font-size: 0.9rem !important;
+    padding: 0.5rem 0.8rem !important;
     background-color: var(--color-secondary-light) !important;
   }
 
@@ -90,6 +99,11 @@
 @media (max-width: 400px) {
   header .nav-link {
     padding: 0.7rem !important;
+  }
+
+  .hero {
+    padding-top: 0.5rem !important;
+    padding-bottom: 4rem !important;
   }
 
   .hero h1 {
@@ -123,7 +137,7 @@
 
   .page__button {
     font-size: 0.87rem !important;
-    padding: 0.7rem 0.8rem !important;
+    padding: 0.5rem 0.7rem !important;
   }
 
   .project__section span {
@@ -189,7 +203,7 @@ span {
 
 .hero {
   min-height: 400px;
-  padding: 3rem 0 4rem;
+  padding: 4rem 0 7.5rem;
 }
 
 .hero h1 {
@@ -198,7 +212,7 @@ span {
 }
 
 .hero p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 300;
   opacity: 0.8;
 }
@@ -282,6 +296,7 @@ span {
 
 .project__section span {
   display: inline-block;
+  margin-top: 0.3em;
 }
 
 .project__section span > i {
@@ -306,7 +321,7 @@ span {
 }
 
 .project__button__section {
-  column-gap: 1.5rem;
+  column-gap: 1.2rem;
   justify-content: flex-start;
 }
 
