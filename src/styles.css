@@ -99,10 +99,6 @@
   .hero p {
     padding-bottom: 1.6rem !important;
   }
-
-  .project__section span {
-    font-size: 0.6rem !important;
-  }
 }
 
 /*Mobile S*/
@@ -128,6 +124,10 @@
   .page__button {
     font-size: 0.87rem !important;
     padding: 0.7rem 0.8rem !important;
+  }
+
+  .project__section span {
+    font-size: 0.61rem !important;
   }
 }
 
@@ -278,6 +278,10 @@ span {
 
 .project__section p {
   padding-bottom: 2.6rem;
+}
+
+.project__section span {
+  display: inline-block;
 }
 
 .project__section span > i {
