@@ -312,6 +312,10 @@ span {
   padding-left: 1rem;
 }
 
+.project__section .custom__shadow {
+  box-shadow: 0px 5px 16px -3px rgba(214, 214, 214, 1);
+}
+
 .project__section .card-body {
   padding: 2rem;
 }
