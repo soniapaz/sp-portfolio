@@ -25,6 +25,10 @@
   .hero p {
     padding-bottom: 2rem !important;
   }
+
+  .project__section span {
+    font-size: 0.68rem !important;
+  }
 }
 
 /*Laptop*/
@@ -37,6 +41,15 @@
 
   .project__button {
     font-size: 0.75rem !important;
+  }
+
+  .project__section span {
+    font-size: 0.6rem !important;
+  }
+
+  .project__section .project__button {
+    font-size: 0.66rem !important;
+    padding: 0.4rem 0.45rem !important;
   }
 }
 
@@ -54,11 +67,20 @@
 
   .project__section .second__col,
   .project__section .third__col {
-    margin-top: 5.5rem;
+    margin-top: 3.5rem;
   }
 
   .project__section p {
     padding-bottom: 2.2rem !important;
+  }
+
+  .project__section span {
+    font-size: 0.65rem !important;
+  }
+
+  .project__section .project__button {
+    font-size: 0.8rem !important;
+    padding: 0.4rem 0.7rem !important;
   }
 }
 
@@ -114,6 +136,10 @@
   .hero p {
     padding-bottom: 1.2rem !important;
   }
+
+  .project__section .project__button {
+    font-size: 0.72rem !important;
+  }
 }
 
 /*Mobile S*/
@@ -142,6 +168,11 @@
 
   .project__section span {
     font-size: 0.61rem !important;
+  }
+
+  .project__section .project__button {
+    font-size: 0.67rem !important;
+    padding: 0.4rem 0.42rem !important;
   }
 }
 
@@ -274,6 +305,15 @@ span {
 .project__section h1 {
   font-size: 1.9rem;
   opacity: 0.9;
+}
+
+.project__section .custom__gutter {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.project__section .card-body {
+  padding: 2rem;
 }
 
 .project__section h5 {
