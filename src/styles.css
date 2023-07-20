@@ -182,7 +182,7 @@ footer {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 1210px;
 }
 
 header .active {
@@ -314,6 +314,15 @@ span {
 
 .project__section .custom__shadow {
   box-shadow: 0px 5px 16px -3px rgba(214, 214, 214, 1);
+}
+
+.project__section .card {
+  transition: all 200ms ease;
+}
+
+.project__section .card:hover {
+  transform: translate3D(0, -1px, 0) scale(1.02);
+  transition: all 300ms ease;
 }
 
 .project__section .card-body {
