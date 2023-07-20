@@ -332,19 +332,16 @@ span {
   padding: 0.3em 1em;
   border-radius: 3px;
   color: white;
-}
-
-.project__section p {
-  padding-bottom: 2.6rem;
-}
-
-.project__section span {
   display: inline-block;
   margin-top: 0.3em;
 }
 
 .project__section span > i {
   margin-right: 0.3em;
+}
+
+.project__section p {
+  padding-bottom: 2.6rem;
 }
 
 .project__button {
