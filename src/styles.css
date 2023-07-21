@@ -67,8 +67,15 @@
   }
 
   .project__section .second__col,
-  .project__section .third__col {
+  .project__section .third__col,
+  .project__section .fourth__col,
+  .project__section .fifth__col,
+  .project__section .sixth__col {
     margin-top: 3.5rem;
+  }
+
+  .project__section .custom__vertical__gutter {
+    padding-bottom: 0rem !important;
   }
 
   .project__section .card-text {
@@ -98,7 +105,8 @@
     padding-bottom: 5.5rem !important;
   }
 
-  .hero h1 {
+  .hero h1,
+  .projects__intro h1 {
     font-size: 2.9rem !important;
   }
 
@@ -117,6 +125,16 @@
     background-color: var(--color-secondary) !important;
     opacity: 0.9;
   }
+
+  .projects__intro {
+    padding-top: 0.5rem !important;
+  }
+
+  .projects__intro p {
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    padding-top: 0.1rem;
+  }
 }
 
 /*Mobile M*/
@@ -130,12 +148,9 @@
     padding-bottom: 5rem !important;
   }
 
-  .hero h1 {
+  .hero h1,
+  .projects__intro h1 {
     font-size: 2.7rem !important;
-  }
-
-  .hero p {
-    padding-bottom: 1.2rem !important;
   }
 
   .project__section .project__button {
@@ -155,11 +170,13 @@
     padding: 0.57rem !important;
   }
 
-  .hero h1 {
+  .hero h1,
+  .projects__intro h1 {
     font-size: 2.3rem !important;
   }
 
-  .hero p {
+  .hero p,
+  .projects__intro p {
     font-size: 1.16rem !important;
   }
 
@@ -233,6 +250,7 @@ span {
   font-family: var(--text-font);
 }
 
+/*Homepage*/
 .hero {
   min-height: 400px;
   padding: 4rem 0 7.5rem;
@@ -323,7 +341,7 @@ span {
   opacity: 0.9;
 }
 
-.project__section .custom__gutter {
+.project__section .custom__horizontal__gutter {
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -419,4 +437,27 @@ footer i {
 
 footer i:hover {
   color: var(--color-text) !important;
+}
+
+/*Projects*/
+.projects__intro {
+  min-height: 270px;
+  padding: 4rem 0 4rem;
+}
+
+.projects__intro h1 {
+  font-size: 3rem;
+  opacity: 0.9;
+}
+
+.projects__intro p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.project__section .custom__vertical__gutter {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
 }

@@ -20,7 +20,7 @@
       src="https://kit.fontawesome.com/a24d071588.js"
       crossorigin="anonymous"
     ></script>
-    <title>Sonia Paz</title>
+    <title>Projects | Sonia Paz</title>
   </head>
   <body>
     <header>
@@ -38,14 +38,16 @@
           /><span class="fs-6">Sonia Paz</span></a
         >
         <ul class="nav nav-pills">
-          <li class="nav-item-active">
-            <a href="/" class="nav-link active" aria-current="page">Home</a>
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link inactive" aria-current="page"
+              >Home</a
+            >
           </li>
           <li class="nav-item">
             <a href="/" class="nav-link inactive">About</a>
           </li>
-          <li class="nav-item">
-            <a href="/projects.html" class="nav-link inactive">Projects</a>
+          <li class="nav-item-active">
+            <a href="/projects.html" class="nav-link active">Projects</a>
           </li>
           <li class="nav-item">
             <a href="/" class="nav-link inactive">Contact</a>
@@ -54,27 +56,24 @@
       </div>
     </header>
     <main>
-      <!-- Hero section -->
-      <div class="hero container text-start">
-        <h1 class="pb-2 mb-0">Hello, my name is Sonia</h1>
+      <!-- Intro section -->
+      <div class="projects__intro container text-start">
+        <h1 class="pb-2 mb-0">Projects</h1>
         <p class="mb-0">
-          I'm a
-          <span class="underlined__element">junior front-end developer</span>
-          based in Spain that has a passion for UX and UI design. With a
-          background in translation, I build and design websites paying great
-          attention to detail, context, and layout.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
+          pharetra orci. In hac habitasse platea dictumst. Class aptent taciti
+          sociosqu ad litora torquent per conubia nostra, per inceptos
+          himenaeos.
         </p>
-        <div class="d-flex">
-          <a href="#" class="page__button">Contact me</a>
-        </div>
       </div>
-      <!-- Hero section end -->
+      <!-- Intro section end -->
 
-      <!-- Featured projects -->
+      <!-- Projects -->
       <div class="project__section container">
-        <h1 class="pb-4">Featured projects</h1>
         <div class="row">
-          <div class="col-lg-4 first__col custom__horizontal__gutter">
+          <div
+            class="col-lg-4 first__col custom__horizontal__gutter custom__vertical__gutter"
+          >
             <div class="card d-flex flex-column h-100 custom__shadow border-0">
               <img
                 src="/images/portfolio-project.png"
@@ -116,7 +115,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 second__col custom__horizontal__gutter">
+          <div
+            class="col-lg-4 second__col custom__horizontal__gutter custom__vertical__gutter"
+          >
             <div class="card d-flex flex-column h-100 custom__shadow border-0">
               <img
                 src="/images/ac-react-project.png"
@@ -148,7 +149,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 third__col custom__horizontal__gutter">
+          <div
+            class="col-lg-4 third__col custom__horizontal__gutter custom__vertical__gutter"
+          >
             <div class="card d-flex flex-column h-100 custom__shadow border-0">
               <img
                 src="/images/hp-project.png"
@@ -178,13 +181,119 @@
             </div>
           </div>
         </div>
-        <p class="project__footer text-end">
-          <a href="#" class="project__see-all text-decoration-none"
-            >See all projects&nbsp; <i class="fa-solid fa-arrow-right"></i
-          ></a>
-        </p>
+        <div class="row">
+          <div
+            class="col-lg-4 fourth__col custom__horizontal__gutter custom__vertical__gutter"
+          >
+            <div class="card d-flex flex-column h-100 custom__shadow border-0">
+              <img
+                src="/images/portfolio-project.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="card-content">
+                  <h5 class="card-title pb-3">Portfolio</h5>
+                  <span><i class="fa-brands fa-html5"></i>HTML</span>
+                  <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                  <span><i class="fa-brands fa-bootstrap"></i>Bootstrap</span>
+                  <span><i class="fa-solid fa-object-ungroup"></i>Flexbox</span>
+                  <span><i class="fa-brands fa-invision"></i>Invision</span>
+                  <span><i class="fa-brands fa-figma"></i>Figma</span>
+                  <p class="card-text pt-3">
+                    A minimalistic website that showcases my journey and
+                    projects as an aspiring front-end developer. I used Flexbox,
+                    Bootstrap and Media Queries to make it behave responsive,
+                    Invision to draw the wireframe and Figma for the design.
+                  </p>
+                </div>
+                <div class="mt-auto">
+                  <div class="project__button__section d-flex">
+                    <a
+                      href="https://super-cuchufli-2c8ddd.netlify.app/"
+                      target="_blank"
+                      class="project__button"
+                      >Preview on Netlify</a
+                    >
+                    <a
+                      href="https://github.com/soniapaz/sp-portfolio"
+                      target="_blank"
+                      class="project__button"
+                      >See on Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 fifth__col custom__horizontal__gutter custom__vertical__gutter"
+          >
+            <div class="card d-flex flex-column h-100 custom__shadow border-0">
+              <img
+                src="/images/ac-react-project.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="card-content">
+                  <h5 class="card-title pb-3">Animal Crossing weather app</h5>
+                  <span><i class="fa-brands fa-bootstrap"></i>Bootstrap</span>
+                  <span><i class="fa-brands fa-js"></i>JavaScript</span>
+                  <span><i class="fa-solid fa-gear"></i>APIs</span>
+                  <span><i class="fa-brands fa-react"></i>React</span>
+                  <span><i class="fa-brands fa-react"></i>Hooks</span>
+                  <span><i class="fa-brands fa-react"></i>Context API</span>
+                  <p class="card-text pt-3">
+                    A colorful weather app based on the Animal Crossing saga in
+                    which music changes depending on location and time of the
+                    day, as in the game. Diving deep into axios and APIs, I
+                    developed this app using Bootstrap, JavaScript and React.
+                  </p>
+                </div>
+                <div class="mt-auto">
+                  <div class="project__button__section d-flex">
+                    <a href="#" class="project__button">Preview on Netlify</a>
+                    <a href="#" class="project__button">See on Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 sixth__col custom__horizontal__gutter custom__vertical__gutter"
+          >
+            <div class="card d-flex flex-column h-100 custom__shadow border-0">
+              <img
+                src="/images/hp-project.png"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="card-content">
+                  <h5 class="card-title pb-3">Harry Potter landing page</h5>
+                  <span><i class="fa-brands fa-html5"></i>HTML</span>
+                  <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                  <span><i class="fa-brands fa-js"></i>JavaScript</span>
+                  <p class="card-text pt-3">
+                    Attend the Sorting Ceremony and discover your Hogwarts
+                    house. Coded with HTML, CSS and JavaScript, this was my
+                    first website and my final project for the SheCodes Basics
+                    workshop.
+                  </p>
+                </div>
+                <div class="mt-auto">
+                  <div class="project__button__section d-flex">
+                    <a href="#" class="project__button">Preview on Netlify</a>
+                    <a href="#" class="project__button">See on Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Featured projects end -->
+      <!-- Projects end -->
     </main>
     <hr class="text-body-tertiary" />
     <footer>
