@@ -108,6 +108,14 @@
     font-size: 0.8rem !important;
     padding: 0.4rem 0.7rem !important;
   }
+
+  .projects__intro h1 {
+    font-size: 2.1rem !important;
+  }
+
+  .projects__intro p {
+    font-size: 1.2rem !important;
+  }
 }
 
 /*Mobile L*/
@@ -152,10 +160,21 @@
     font-size: 1.5rem !important;
   }
 
+  .project__see-all {
+    font-size: 1rem !important;
+  }
+
+  .projects__intro {
+    padding-top: 6rem !important;
+  }
+
+  .projects__intro h1 {
+    font-size: 1.9rem !important;
+  }
+
   .projects__intro p {
     font-size: 1.2rem !important;
-    font-weight: 400 !important;
-    padding-top: 0.1rem;
+    margin-top: 0.25rem;
   }
 }
 
@@ -179,7 +198,8 @@
     font-size: 2.2rem !important;
   }
 
-  .hero p {
+  .hero p,
+  .projects__intro p {
     font-size: 1.17rem !important;
   }
 
@@ -200,7 +220,8 @@
     padding: 0.57rem !important;
   }
 
-  .hero p {
+  .hero p,
+  .projects__intro p {
     font-size: 1.13rem !important;
   }
 
@@ -473,7 +494,7 @@ span {
 }
 
 .project__footer {
-  margin: 2.2rem 0 0 0;
+  margin: 2.4rem 0 0 0;
 }
 
 .project__see-all {
@@ -509,15 +530,16 @@ footer i:hover {
 }
 
 .projects__intro h1 {
-  font-size: 3rem;
-  opacity: 0.9;
+  font-size: 2.3rem;
   margin-top: 10rem;
+  font-weight: 600;
+  color: var(--color-opacity);
 }
 
 .projects__intro p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
-  opacity: 0.8;
+  margin-left: 0.1rem;
 }
 
 .project__section .custom__vertical__gutter {
