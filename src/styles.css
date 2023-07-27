@@ -84,6 +84,15 @@
     font-size: 0.9rem !important;
   }
 
+  .about__section h1::after,
+  .project__section h1::after {
+    width: 35% !important;
+  }
+
+  .project__section {
+    padding-top: 7rem !important;
+  }
+
   .project__section .second__col,
   .project__section .third__col,
   .project__section .fourth__col,
@@ -156,6 +165,29 @@
     opacity: 0.9;
   }
 
+  .about__section h1::after {
+    width: 50% !important;
+    left: 145px !important;
+  }
+
+  .about__section p {
+    font-size: 1rem !important;
+  }
+
+  .about__section ul {
+    font-size: 0.95rem !important;
+  }
+
+  .project__section {
+    padding-top: 4rem !important;
+  }
+
+  .project__section h1::after {
+    width: 28% !important;
+    left: 235px !important;
+  }
+
+  .about__section h1,
   .project__section h1 {
     font-size: 1.5rem !important;
   }
@@ -203,6 +235,16 @@
     font-size: 1.17rem !important;
   }
 
+  .about__section h1::after {
+    width: 45% !important;
+    left: 145px !important;
+  }
+
+  .project__section h1::after {
+    width: 17% !important;
+    left: 235px !important;
+  }
+
   .project__section .project__button {
     font-size: 0.72rem !important;
   }
@@ -227,6 +269,16 @@
 
   .page__button {
     font-size: 0.87rem !important;
+  }
+
+  .about__section h1::after {
+    width: 40% !important;
+    left: 145px !important;
+  }
+
+  .project__section h1::after {
+    width: 10% !important;
+    left: 230px !important;
   }
 
   .project__section span {
@@ -404,8 +456,97 @@ span {
   background-color: var(--color-secondary-dark);
 }
 
+.about__section.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about__section h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-opacity);
+  margin-bottom: 2.5rem;
+}
+
+.about__section h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  left: 165px;
+  width: 25%;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--color-border);
+}
+
+.about__section p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  max-width: 790px;
+  margin-top: 0.7rem;
+}
+
+.about__section .custom-cursor {
+  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1289.cur), auto !important;
+}
+
+.underlined__link {
+  display: inline-block;
+  position: relative;
+  color: var(--color-text) !important;
+  text-decoration: none;
+}
+
+.underlined__link::after,
+.underlined__link::before {
+  content: "";
+  display: block;
+  height: 0.6em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.underlined__link::before {
+  background-color: var(--color-underline);
+}
+
+.underlined__link::after {
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 300ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.underlined__link:hover::after {
+  transform: scaleX(1);
+}
+
+.about__section ul {
+  font-size: 1rem;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 1.2rem;
+  overflow: hidden;
+  max-width: 450px;
+}
+
+.about__section li {
+  padding-bottom: 0.5rem;
+}
+
+.about__section li::marker {
+  color: var(--color-primary);
+}
+
 .project__section {
   padding: 0 0 3rem;
+  padding-top: 9.5rem;
 }
 
 .hidden__section {
@@ -423,6 +564,19 @@ span {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--color-opacity);
+  margin-bottom: 3rem;
+}
+
+.project__section h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  left: 273px;
+  width: 25%;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--color-border);
 }
 
 .project__section .custom__horizontal__gutter {

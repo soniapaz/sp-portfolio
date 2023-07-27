@@ -32,7 +32,8 @@ function handleNavbarScroll() {
 window.addEventListener("scroll", handleNavbarScroll);
 
 // Section scroll
-let hasFadeIn = false;
+let hasFeaturedProjectsFadeIn = false;
+let hasAboutMeFadeIn = false;
 
 // Check if the element is visible in the viewport
 function isElementInViewport(element) {
@@ -47,13 +48,25 @@ function isElementInViewport(element) {
 function handleSectionScroll() {
   const featuredProjectsSection = document.getElementById("featured-projects");
   const featuredProjectsTitle = document.querySelector("#featured-projects h1");
+  const aboutMeSection = document.getElementById("about-me");
+  const aboutMeTitle = document.querySelector("#about-me h1");
 
-  // Check if the H1 is in the viewport and the transition has not been applied yet
-  if (!hasFadeIn && isElementInViewport(featuredProjectsTitle)) {
-    // Apply the "fade-in-up" class to the entire section
+  // Check if the H1s are in the viewport and the transitions have not been applied yet
+  if (
+    !hasFeaturedProjectsFadeIn &&
+    isElementInViewport(featuredProjectsTitle)
+  ) {
+    // Apply the "fade-in-up" class to the entire featured-projects section
     featuredProjectsSection.classList.add("fade-in-up");
     // Update the flag to avoid repetitions
-    hasFadeIn = true;
+    hasFeaturedProjectsFadeIn = true;
+  }
+
+  if (!hasAboutMeFadeIn && isElementInViewport(aboutMeTitle)) {
+    // Apply the "fade-in-up" class to the entire about-me section
+    aboutMeSection.classList.add("fade-in-up");
+    // Update the flag to avoid repetitions
+    hasAboutMeFadeIn = true;
   }
 }
 
