@@ -75,3 +75,15 @@ window.addEventListener("DOMContentLoaded", function () {
   // Add the scroll event once the DOM is fully loaded
   window.addEventListener("scroll", handleSectionScroll);
 });
+
+//See all projects button
+document.getElementById("see-all-btn").addEventListener("click", function () {
+  swal.fire({
+    title: "Page under construction",
+    text: "Awesome projects coming soon!",
+    icon: "warning",
+    confirmButtonText: "Alrighty",
+    confirmButtonColor: "#ffb151f3",
+    allowOutsideClick: false,
+  });
+});
