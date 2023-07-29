@@ -24,7 +24,7 @@
     <title>Sonia Paz</title>
   </head>
   <body>
-    <header>
+    <header role="banner">
       <div
         class="container d-flex flex-wrap justify-content-center align-items-center pb-2"
       >
@@ -38,7 +38,7 @@
             class="me-2"
           /><span class="fs-6">Sonia Paz</span></a
         >
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills" role="navigation">
           <li class="nav-item-active">
             <a href="/" class="nav-link active" aria-current="page">Home</a>
           </li>
@@ -58,7 +58,7 @@
         </ul>
       </div>
     </header>
-    <main>
+    <main role="main">
       <!-- Hero section -->
       <div class="hero container text-start">
         <h1>Hi, my name is Sonia</h1>
@@ -233,7 +233,12 @@
             class="project__see-all text-decoration-none"
             id="see-all-btn"
           >
-            See all projects&nbsp; <i class="fa-solid fa-arrow-right"></i>
+            See all projects&nbsp;
+            <i
+              class="fa-solid fa-arrow-right"
+              role="img"
+              aria-hidden="true"
+            ></i>
           </button>
         </p>
       </div>
@@ -260,7 +265,7 @@
       <!--Contact me end-->
     </main>
     <hr class="text-body-tertiary" />
-    <footer>
+    <footer role="contentinfo">
       <div class="container d-flex flex-wrap justify-content-between py-3 my-3">
         <div class="col-sm-4 d-flex">
           <span class="text-body-secondary" style="font-size: 14px"
@@ -272,21 +277,44 @@
         </div>
         <ul class="nav col-sm-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a href="https://github.com/soniapaz" target="_blank">
-              <i class="fa-brands fa-github" style="color: #6c757d"></i>
+            <a
+              href="https://github.com/soniapaz"
+              target="_blank"
+              title="Visit my GitHub profile"
+            >
+              <span class="sr-only">Visit my GitHub profile</span>
+              <i
+                class="fa-brands fa-github"
+                style="color: #6c757d"
+                role="img"
+                aria-hidden="true"
+              ></i>
             </a>
           </li>
           <li class="ms-3">
             <a
               href="https://www.linkedin.com/in/sonia-p-14546527b/"
               target="_blank"
+              title="Visit my LinkedIn profile"
             >
-              <i class="fa-brands fa-linkedin-in" style="color: #6c757d"></i>
+              <span class="sr-only">Visit my LinkedIn profile</span>
+              <i
+                class="fa-brands fa-linkedin-in"
+                style="color: #6c757d"
+                role="img"
+                aria-hidden="true"
+              ></i>
             </a>
           </li>
           <li class="ms-3">
-            <a href="mailto:pazaguilarsonia@gmail.com">
-              <i class="fa-solid fa-envelope" style="color: #6c757d"></i>
+            <a href="mailto:pazaguilarsonia@gmail.com" title="Send me an email">
+              <span class="sr-only">Send me an email</span>
+              <i
+                class="fa-solid fa-envelope"
+                style="color: #6c757d"
+                role="img"
+                aria-hidden="true"
+              ></i>
             </a>
           </li>
         </ul>
