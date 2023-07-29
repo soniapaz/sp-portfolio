@@ -68,7 +68,7 @@
 @media (max-width: 768px) {
   .hero {
     padding-top: 10rem !important;
-    padding-bottom: 15rem !important;
+    padding-bottom: 10rem !important;
   }
 
   .hero h1 {
@@ -84,6 +84,10 @@
     font-size: 0.9rem !important;
   }
 
+  .about__section h1 {
+    padding-top: 5rem !important;
+  }
+
   .about__section h1::after,
   .project__section h1::after,
   .contact__section h1::after {
@@ -94,6 +98,10 @@
   .contact__section p {
     max-width: 760px !important;
     font-size: 1.17rem !important;
+  }
+
+  .about__section ul {
+    padding-bottom: 0 !important;
   }
 
   .project__section,
@@ -153,7 +161,7 @@
 
   .hero {
     padding-top: 6.9rem !important;
-    padding-bottom: 11rem !important;
+    padding-bottom: 6rem !important;
   }
 
   .hero h1 {
@@ -245,7 +253,6 @@
 
   .hero {
     padding-top: 6.1rem !important;
-    padding-bottom: 11rem !important;
   }
 
   .hero h1 {
@@ -302,10 +309,6 @@
 
   header .nav-link {
     padding: 0.57rem !important;
-  }
-
-  .hero {
-    padding-top: 6.35rem !important;
   }
 
   .hero p,
@@ -429,7 +432,7 @@ li {
 /*Homepage*/
 .hero {
   min-height: 400px;
-  padding: 11rem 0 18rem;
+  padding: 11rem 0 11rem;
 }
 
 .hero h1 {
@@ -530,6 +533,7 @@ li {
   font-weight: 700;
   color: var(--color-opacity);
   margin-bottom: 2.5rem;
+  padding-top: 7rem;
 }
 
 .about__section h1::after {
@@ -598,7 +602,7 @@ li {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
-  padding: 0.8rem 0 0 1.2rem;
+  padding: 0.8rem 0 3.5rem 1.2rem;
   overflow: hidden;
   max-width: 450px;
 }
@@ -612,7 +616,7 @@ li {
 }
 
 .project__section {
-  padding-top: 9.5rem;
+  padding-top: 6rem;
 }
 
 .hidden__section {
