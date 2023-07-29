@@ -85,11 +85,13 @@
   }
 
   .about__section h1::after,
-  .project__section h1::after {
+  .project__section h1::after,
+  .contact__section h1::after {
     width: 35% !important;
   }
 
-  .project__section {
+  .project__section,
+  .contact__section {
     padding-top: 7rem !important;
   }
 
@@ -124,6 +126,10 @@
 
   .projects__intro p {
     font-size: 1.2rem !important;
+  }
+
+  .contact__section {
+    padding-bottom: 5rem !important;
   }
 }
 
@@ -170,7 +176,8 @@
     left: 145px !important;
   }
 
-  .about__section p {
+  .about__section p,
+  .contact__section p {
     font-size: 1rem !important;
   }
 
@@ -188,7 +195,8 @@
   }
 
   .about__section h1,
-  .project__section h1 {
+  .project__section h1,
+  .contact__section h1 {
     font-size: 1.5rem !important;
   }
 
@@ -207,6 +215,15 @@
   .projects__intro p {
     font-size: 1.2rem !important;
     margin-top: 0.25rem;
+  }
+
+  .contact__section h1::after {
+    width: 56% !important;
+    left: 130px !important;
+  }
+
+  .contact__section p {
+    padding-bottom: 0.2rem !important;
   }
 }
 
@@ -248,6 +265,11 @@
   .project__section .project__button {
     font-size: 0.72rem !important;
   }
+
+  .contact__section h1::after {
+    width: 52% !important;
+    left: 130px !important;
+  }
 }
 
 /*Mobile S*/
@@ -288,6 +310,11 @@
   .project__section .project__button {
     font-size: 0.67rem !important;
     padding: 0.4rem 0.42rem !important;
+  }
+
+  .contact__section h1::after {
+    width: 44% !important;
+    left: 130px !important;
   }
 }
 
@@ -545,7 +572,6 @@ span {
 }
 
 .project__section {
-  padding: 0 0 3rem;
   padding-top: 9.5rem;
 }
 
@@ -560,7 +586,8 @@ span {
   transform: translateY(0);
 }
 
-.project__section h1 {
+.project__section h1,
+.contact__section h1 {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--color-opacity);
@@ -700,4 +727,28 @@ footer i:hover {
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 3rem;
+}
+
+.contact__section {
+  padding: 9.5rem 0rem 7.5rem 0rem;
+}
+
+.contact__section h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  left: 150px;
+  width: 25%;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--color-border);
+}
+
+.contact__section p {
+  font-size: 1.15rem;
+  font-weight: 400;
+  max-width: 810px;
+  margin-top: 0.7rem;
+  padding-bottom: 0.5rem;
 }
