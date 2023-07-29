@@ -1,3 +1,4 @@
+/*
 // Navbar scroll
 const header = document.querySelector("header");
 let prevScrollPos = window.scrollY;
@@ -84,7 +85,7 @@ function handleSectionScroll() {
 window.addEventListener("DOMContentLoaded", function () {
   // Add the scroll event once the DOM is fully loaded
   window.addEventListener("scroll", handleSectionScroll);
-});
+});*/
 
 //See all projects button
 document.getElementById("see-all-btn").addEventListener("click", function () {

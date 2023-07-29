@@ -24,6 +24,11 @@
     width: 85% !important;
   }
 
+  .hero {
+    padding-top: 10rem !important;
+    padding-bottom: 17rem !important;
+  }
+
   .hero p {
     padding-bottom: 3rem !important;
   }
@@ -42,7 +47,7 @@
   }
 
   .hero {
-    padding-top: 7rem !important;
+    padding-top: 9rem !important;
   }
 
   .project__button {
@@ -62,7 +67,7 @@
 /*Tablet*/
 @media (max-width: 768px) {
   .hero {
-    padding-top: 8rem !important;
+    padding-top: 10rem !important;
     padding-bottom: 15rem !important;
   }
 
@@ -142,7 +147,7 @@
   }
 
   .hero {
-    padding-top: 8.4rem !important;
+    padding-top: 6.9rem !important;
     padding-bottom: 11rem !important;
   }
 
@@ -172,7 +177,7 @@
   }
 
   .about__section h1::after {
-    width: 50% !important;
+    width: 53% !important;
     left: 145px !important;
   }
 
@@ -234,7 +239,7 @@
   }
 
   .hero {
-    padding-top: 8rem !important;
+    padding-top: 6.1rem !important;
     padding-bottom: 11rem !important;
   }
 
@@ -284,6 +289,10 @@
     padding: 0.57rem !important;
   }
 
+  .hero {
+    padding-top: 6.35rem !important;
+  }
+
   .hero p,
   .projects__intro p {
     font-size: 1.13rem !important;
@@ -329,19 +338,19 @@ footer {
 
 header {
   padding-top: 3rem;
-  position: fixed;
+  /*position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  /*z-index: 1000;
   background-color: rgba(255, 255, 255, 0.384);
   backdrop-filter: blur(10px);
-  transition: transform 300ms ease-in-out, padding-top 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, padding-top 300ms ease-in-out;*/
 }
 
-.header-hidden {
+/*.header-hidden {
   transform: translateY(-100%);
-}
+}*/
 
 header .active {
   background-color: var(--color-tertiary) !important;
@@ -393,7 +402,7 @@ span {
 /*Homepage*/
 .hero {
   min-height: 400px;
-  padding: 9rem 0 18rem;
+  padding: 11rem 0 18rem;
 }
 
 .hero h1 {
@@ -402,7 +411,7 @@ span {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   color: var(--color-secondary-dark);
-  margin: 9.5rem 0 1rem 0.35rem;
+  margin: 0rem 0 1rem 0.35rem;
 }
 
 .hero h2 {
@@ -418,7 +427,7 @@ span {
   margin-top: 1.3rem;
 }
 
-.hero .fade-in-up {
+/*.hero .fade-in-up {
   opacity: 0;
   transform: translateY(20px);
   animation-fill-mode: both;
@@ -452,7 +461,7 @@ span {
     opacity: 1;
     transform: translateY(0);
   }
-}
+}*/
 
 .underlined__element {
   position: relative;
@@ -483,10 +492,10 @@ span {
   background-color: var(--color-secondary-dark);
 }
 
-.about__section.fade-in-up {
+/*.about__section.fade-in-up {
   opacity: 1;
   transform: translateY(0);
-}
+}*/
 
 .about__section h1 {
   font-size: 1.75rem;
@@ -581,10 +590,10 @@ span {
   transition: opacity 1s ease, transform 1s ease;
 }
 
-.project__section.fade-in-up {
+/*.project__section.fade-in-up {
   opacity: 1;
   transform: translateY(0);
-}
+}*/
 
 .project__section h1,
 .contact__section h1 {
@@ -740,10 +749,10 @@ footer i:hover {
   padding-bottom: 3rem;
 }
 
-.contact__section.fade-in-up {
+/*.contact__section.fade-in-up {
   opacity: 1;
   transform: translateY(0);
-}
+}*/
 
 .contact__section {
   padding: 9.5rem 0rem 7.5rem 0rem;
