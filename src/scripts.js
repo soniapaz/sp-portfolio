@@ -34,6 +34,7 @@ window.addEventListener("scroll", handleNavbarScroll);
 // Section scroll
 let hasFeaturedProjectsFadeIn = false;
 let hasAboutMeFadeIn = false;
+let hasContactFadeIn = false;
 
 // Check if the element is visible in the viewport
 function isElementInViewport(element) {
@@ -46,10 +47,12 @@ function isElementInViewport(element) {
 
 // Handle the scroll event
 function handleSectionScroll() {
-  const featuredProjectsSection = document.getElementById("featured-projects");
-  const featuredProjectsTitle = document.querySelector("#featured-projects h1");
   const aboutMeSection = document.getElementById("about-me");
   const aboutMeTitle = document.querySelector("#about-me h1");
+  const featuredProjectsSection = document.getElementById("featured-projects");
+  const featuredProjectsTitle = document.querySelector("#featured-projects h1");
+  const contactSection = document.getElementById("contact-me");
+  const contactTitle = document.querySelector("#contact-me h1");
 
   // Check if the H1s are in the viewport and the transitions have not been applied yet
   if (
@@ -67,6 +70,13 @@ function handleSectionScroll() {
     aboutMeSection.classList.add("fade-in-up");
     // Update the flag to avoid repetitions
     hasAboutMeFadeIn = true;
+  }
+
+  if (!hasContactFadeIn && isElementInViewport(contactTitle)) {
+    // Apply the "fade-in-up" class to the entire contact section
+    contactSection.classList.add("fade-in-up");
+    // Update the flag to avoid repetitions
+    hasContactFadeIn = true;
   }
 }
 

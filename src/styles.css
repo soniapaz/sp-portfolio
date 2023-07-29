@@ -740,6 +740,11 @@ footer i:hover {
   padding-bottom: 3rem;
 }
 
+.contact__section.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .contact__section {
   padding: 9.5rem 0rem 7.5rem 0rem;
 }
