@@ -24,11 +24,6 @@
     width: 85% !important;
   }
 
-  .hero {
-    padding-top: 10rem !important;
-    padding-bottom: 17rem !important;
-  }
-
   .hero p {
     padding-bottom: 3rem !important;
   }
@@ -52,6 +47,11 @@
 
   .project__button {
     font-size: 0.75rem !important;
+  }
+
+  .about__section p,
+  .contact__section p {
+    max-width: 960px !important;
   }
 
   .project__section span {
@@ -79,11 +79,6 @@
     font-size: 3.5rem !important;
   }
 
-  .hero p {
-    font-size: 1.2rem !important;
-    max-width: 610px !important;
-  }
-
   .page__button {
     padding: 0.6rem 0.8rem !important;
     font-size: 0.9rem !important;
@@ -93,6 +88,12 @@
   .project__section h1::after,
   .contact__section h1::after {
     width: 35% !important;
+  }
+
+  .about__section p,
+  .contact__section p {
+    max-width: 760px !important;
+    font-size: 1.17rem !important;
   }
 
   .project__section,
@@ -129,6 +130,10 @@
     padding-bottom: 5rem !important;
   }
 
+  .contact__section ul {
+    font-size: 1.05rem !important;
+  }
+
   .projects__intro h1 {
     font-size: 2.1rem !important;
   }
@@ -162,6 +167,7 @@
   }
 
   .hero p {
+    font-size: 1.2rem !important;
     margin-top: 1rem !important;
     padding-bottom: 2.1rem !important;
   }
@@ -183,11 +189,14 @@
 
   .about__section p,
   .contact__section p {
-    font-size: 1rem !important;
+    max-width: 400px !important;
+    font-size: 1.1rem !important;
+    padding-bottom: 0.2rem !important;
   }
 
   .about__section ul {
-    font-size: 0.95rem !important;
+    font-size: 1.02rem !important;
+    padding-top: 1rem !important;
   }
 
   .project__section {
@@ -212,10 +221,6 @@
   .contact__section h1::after {
     width: 56% !important;
     left: 130px !important;
-  }
-
-  .contact__section p {
-    padding-bottom: 0.2rem !important;
   }
 
   .projects__intro {
@@ -254,12 +259,22 @@
 
   .hero p,
   .projects__intro p {
-    font-size: 1.17rem !important;
+    font-size: 1.19rem !important;
   }
 
   .about__section h1::after {
     width: 45% !important;
     left: 145px !important;
+  }
+
+  .about__section p,
+  .contact__section p {
+    max-width: 350px !important;
+    font-size: 1.06rem !important;
+  }
+
+  .about__section ul {
+    font-size: 1rem !important;
   }
 
   .project__section h1::after {
@@ -295,7 +310,7 @@
 
   .hero p,
   .projects__intro p {
-    font-size: 1.13rem !important;
+    font-size: 1.16rem !important;
   }
 
   .page__button {
@@ -305,6 +320,16 @@
   .about__section h1::after {
     width: 40% !important;
     left: 145px !important;
+  }
+
+  .about__section p,
+  .contact__section p {
+    max-width: 310px !important;
+    font-size: 0.96rem !important;
+  }
+
+  .about__section ul {
+    font-size: 0.93rem !important;
   }
 
   .project__section h1::after {
@@ -395,7 +420,9 @@ h2,
 h5,
 p,
 a,
-span {
+span,
+ul,
+li {
   font-family: var(--text-font);
 }
 
@@ -406,7 +433,7 @@ span {
 }
 
 .hero h1 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -421,9 +448,9 @@ span {
 }
 
 .hero p {
-  font-size: 1.32rem;
+  font-size: 1.4rem;
   font-weight: 300;
-  max-width: 820px;
+  max-width: 910px;
   margin-top: 1.3rem;
 }
 
@@ -517,10 +544,12 @@ span {
 }
 
 .about__section p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  max-width: 790px;
+  color: var(--color-text);
+  max-width: 820px;
   margin-top: 0.7rem;
+  padding-bottom: 0.4rem;
 }
 
 .about__section .custom-cursor {
@@ -562,12 +591,12 @@ span {
 }
 
 .about__section ul {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
-  padding: 1.2rem;
+  padding: 0.8rem 0 0 1.2rem;
   overflow: hidden;
   max-width: 450px;
 }
@@ -771,9 +800,9 @@ footer i:hover {
 }
 
 .contact__section p {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 400;
   max-width: 810px;
   margin-top: 0.7rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
 }
