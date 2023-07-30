@@ -106,7 +106,7 @@
 
   .project__section,
   .contact__section {
-    padding-top: 7rem !important;
+    padding-top: 5rem !important;
   }
 
   .project__section .second__col,
@@ -161,7 +161,7 @@
 
   .hero {
     padding-top: 6.9rem !important;
-    padding-bottom: 6rem !important;
+    padding-bottom: 7rem !important;
   }
 
   .hero h1 {
@@ -188,6 +188,10 @@
   .page__button:hover {
     background-color: var(--color-secondary) !important;
     opacity: 0.9;
+  }
+
+  .about__section h1 {
+    padding-top: 4rem !important;
   }
 
   .about__section h1::after {
