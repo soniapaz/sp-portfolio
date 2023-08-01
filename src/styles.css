@@ -424,7 +424,7 @@ header .nav-link:hover {
 
 h1,
 h2,
-h5,
+h4,
 p,
 a,
 span,
@@ -676,7 +676,7 @@ li {
   padding: 2rem;
 }
 
-.project__section h5 {
+.project__section h4 {
   font-size: 1.2rem;
   font-weight: 600;
 }
