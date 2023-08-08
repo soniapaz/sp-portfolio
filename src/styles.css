@@ -3,6 +3,7 @@
 :root {
   --color-text: #404040;
   --color-opacity: #44484b;
+  --color-opacity-light: #666c70;
   --text-font: "Figtree", sans-serif;
   --color-border: #e0e8d9;
   --color-underline: #daddc5; /*#d7dbbd or #c6ce9d*/
@@ -456,12 +457,12 @@ li {
 .hero p {
   font-size: 1.4rem;
   font-weight: 400;
-  opacity: 0.7;
+  color: var(--color-opacity-light);
   max-width: 910px;
   margin-top: 1.3rem;
 }
 
-/*.hero .fade-in-up {
+.hero .fade-in-up {
   opacity: 0;
   transform: translateY(20px);
   animation-fill-mode: both;
@@ -495,7 +496,7 @@ li {
     opacity: 1;
     transform: translateY(0);
   }
-}*/
+}
 
 .underlined__element {
   position: relative;
