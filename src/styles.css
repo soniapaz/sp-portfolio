@@ -470,11 +470,11 @@ li {
 
 .hero .fade-in-up {
   animation-name: fadeInUpAnimation;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-timing-function: ease-in-out;
   animation-delay: var(--animation-delay);
 }
-
+/*
 .hero h2.fade-in-up {
   --animation-delay: 0.1s;
 }
@@ -485,7 +485,7 @@ li {
 
 .hero div.fade-in-up {
   --animation-delay: 0.3s;
-}
+}*/
 
 @keyframes fadeInUpAnimation {
   0% {
