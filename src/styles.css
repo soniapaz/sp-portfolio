@@ -392,6 +392,8 @@ header .active {
 header img {
   border-radius: 50%;
   background-color: #f5e0e1; /*or #f5e0e1; | #ffefde;*/
+  width: 4rem;
+  height: 4rem;
 }
 
 header .nav-item {
@@ -652,6 +654,10 @@ li {
   height: 1px;
   margin-left: 20px;
   background-color: var(--color-border);
+}
+
+.project__section img {
+  aspect-ratio: 16 / 9;
 }
 
 .project__section .custom__horizontal__gutter {
