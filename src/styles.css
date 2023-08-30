@@ -8,11 +8,11 @@
   --color-border: #e0e8d9;
   --color-underline: #daddc5; /*#d7dbbd or #c6ce9d*/
   --color-primary: #9ea76a;
-  --color-secondary: #f77f87;
-  --color-secondary-dark: #eb6b74;
-  --color-secondary-light: #fda0a5;
+  --color-secondary: #f66a73;
+  --color-secondary-dark: #e75b63;
+  --color-secondary-light: #fd9195;
   --color-secondary-superlight: #ffe8e9;
-  --color-tertiary: #607b40;
+  --color-tertiary: #455f30;
   --color-quaternary: #f8bd75f3;
 }
 
@@ -690,9 +690,9 @@ li {
 .project__section span {
   font-size: 0.7rem;
   background-color: var(--color-tertiary);
-  opacity: 0.5;
+  opacity: 0.6;
   padding: 0.3em 1em;
-  border-radius: 3px;
+  border-radius: 0.8px;
   color: white;
   display: inline-block;
   margin-top: 0.3em;
