@@ -11,7 +11,6 @@
   --color-secondary: #f66a72;
   --color-secondary-dark: #e75b63;
   --color-secondary-light: #fd8c90;
-  --color-secondary-superlight: #ffe8e9;
   --color-tertiary: #455f30;
   --color-quaternary: #f8bd75f3;
 }
@@ -403,7 +402,8 @@ header .nav-item {
 header .nav-item::after {
   content: "";
   height: 5px;
-  background-color: var(--color-secondary-superlight);
+  background-color: var(--color-underline);
+  opacity: 0.9;
   position: absolute;
   left: 1.25rem;
   right: 1.25rem;
