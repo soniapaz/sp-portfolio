@@ -8,9 +8,9 @@
   --color-border: #e0e8d9;
   --color-underline: #daddc5; /*#d7dbbd or #c6ce9d*/
   --color-primary: #9ea76a;
-  --color-secondary: #f66a72;
-  --color-secondary-dark: #e75b63;
-  --color-secondary-light: #fd8c90;
+  --color-secondary: #e6565dda;
+  --color-secondary-dark: #e3454eda;
+  --color-secondary-light: #fd7c82dc;
   --color-tertiary: #455f30;
   --color-quaternary: #f8bd75f3;
 }
@@ -390,7 +390,7 @@ header .active {
 
 header img {
   border-radius: 50%;
-  background-color: #fee1e5;
+  background-color: #ffdadada;
   width: 4rem;
   height: 4rem;
 }
