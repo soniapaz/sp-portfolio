@@ -23,6 +23,10 @@
     width: 85% !important;
   }
 
+  .hero {
+    padding: 11rem 0 7.8rem !important;
+  }
+
   .hero p {
     padding-bottom: 3rem !important;
   }
@@ -41,7 +45,7 @@
   }
 
   .hero {
-    padding-top: 9rem !important;
+    padding-top: 11rem !important;
   }
 
   .project__button {
@@ -67,7 +71,7 @@
 @media (max-width: 768px) {
   .hero {
     padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
+    padding-bottom: 10.5rem !important;
   }
 
   .hero h1 {
@@ -160,7 +164,7 @@
 
   .hero {
     padding-top: 6.9rem !important;
-    padding-bottom: 7rem !important;
+    padding-bottom: 9rem !important;
   }
 
   .hero h1 {
@@ -256,6 +260,7 @@
 
   .hero {
     padding-top: 6.1rem !important;
+    padding-bottom: 10.5rem !important;
   }
 
   .hero h1 {
@@ -312,6 +317,10 @@
 
   header .nav-link {
     padding: 0.57rem !important;
+  }
+
+  .hero {
+    padding-bottom: 11rem !important;
   }
 
   .hero p,
@@ -456,7 +465,7 @@ li {
 /*Homepage*/
 .hero {
   min-height: 400px;
-  padding: 11rem 0 13rem;
+  padding: 11rem 0 13.7rem;
 }
 
 .hero h1 {
