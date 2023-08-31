@@ -23,10 +23,6 @@
     width: 85% !important;
   }
 
-  .hero {
-    padding: 11rem 0 7.8rem !important;
-  }
-
   .hero p {
     padding-bottom: 3rem !important;
   }
@@ -46,6 +42,7 @@
 
   .hero {
     padding-top: 11rem !important;
+    padding-bottom: 7.8rem !important;
   }
 
   .project__button {
